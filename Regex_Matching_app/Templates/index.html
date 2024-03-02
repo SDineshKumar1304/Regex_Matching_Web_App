@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %}Regex Matcher{% endblock %}
+
+{% block content %}
+    <h1>Regex Matcher</h1>
+
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul class="messages">
+                {% for message in messages %}
+                    <li class="{{ message|lower }}">{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+
+    <form action="{{ url_for('results') }}" method="post">
+        <label for="test_string">Test String:</label>
+        <input type="text" id="test_string" name="test_string" required><br>
+
+        <label for="regex_pattern">Regex Pattern:</label>
+        <input type="text" id="regex_pattern" name="regex_pattern" required><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <form action="{{ url_for('validate_email') }}" method="post">
+        <label for="email">Validate Email:</label>
+        <input type="text" id="email" name="email" required>
+        <button type="submit">Validate</button>
+    </form>
+{% endblock %}
