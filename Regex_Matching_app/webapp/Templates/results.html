@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}Regex Matcher - Results{% endblock %}
+
+{% block content %}
+    <h1>Regex Matcher - Results</h1>
+
+    <p><strong>Test String:</strong> {{ test_string }}</p>
+    <p><strong>Regex Pattern:</strong> {{ regex_pattern }}</p>
+
+    {% if matches %}
+        <h2>Matches:</h2>
+        <ul>
+            {% for match in matches %}
+                <li>{{ match }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No matches found.</p>
+    {% endif %}
+
+    {% if email_validation %}
+        <p>Email Validation Status: {{ email_validation }}</p>
+    {% endif %}
+
+    <a href="{{ url_for('home') }}" class="back-button">Back to Home</a>
+{% endblock %}
