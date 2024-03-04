@@ -1,7 +1,7 @@
 # Regex Pattern Matching and Email Validation App
 
 ## Overview
-This application provides a simple yet powerful interface for performing regex pattern matching and email validation. It is designed to help users quickly and efficiently validate strings against custom regex patterns and check if they conform to valid email formats.
+This application provides a simple yet powerful interface for performing regex pattern matching and email validation. It is designed to help users quickly and efficiently validate strings against custom regex patterns and check if they confirm to valid email formats.
 
 ## Features
 - Regex Pattern Matching: Validate strings against custom regular expressions.
