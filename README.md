@@ -1,7 +1,18 @@
-# Creating a Regex Pattern Matching Web App
+# Regex Pattern Matching and Email Validation App
 
+## Overview
+This application provides a simple yet powerful interface for performing regex pattern matching and email validation. It is designed to help users quickly and efficiently validate strings against custom regex patterns and check if they conform to valid email formats.
 
-## Note : Deployment is under process
+## Features
+- Regex Pattern Matching: Validate strings against custom regular expressions.
+- Email Validation: Verify if a given string is a valid email address.
+
+# AWS EC2 Deployment
+
+I've deployed my Regex Pattern Matching and Email Validation App on AWS! 🎉
+
+# 🔗 Check it out here: http://51.20.5.207:5000/
+ 
 
 # UI
 
