@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, flash
 import re
 
 app = Flask(__name__)
-app.secret_key = 'DR-1329'
+app.secret_key = 'your - Key'
 
 @app.route('/')
 def home():
