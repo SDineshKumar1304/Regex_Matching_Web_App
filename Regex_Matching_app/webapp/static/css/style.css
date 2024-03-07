@@ -2,14 +2,14 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000000; /* Set to a shade of yellow */
+    background-color: #000000; 
     color: #333;
 }
 #content {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #333; /* Dark background color */
+    background-color: #333; 
     color: #fff; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -43,8 +43,8 @@ input[type="text"] {
 }
 
 button {
-    background-color: #ffc107; /* Yellow button background color */
-    color: #333; /* Dark button text color */
+    background-color: #ffc107; 
+    color: #333; 
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
@@ -54,18 +54,18 @@ button {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 15px;
-    background-color: #ffc107; /* Yellow button background color */
-    color: #333; /* Dark button text color */
+    background-color: #ffc107; 
+    color: #333;
     text-decoration: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
 .back-button:hover {
-    background-color: #ffdb58; /* Lighter yellow on hover */
+    background-color: #ffdb58; 
 }
 button:hover {
-    background-color: #ffdb58; /* Lighter yellow on hover */
+    background-color: #ffdb58; 
 }
 
 ul {
@@ -107,8 +107,8 @@ li {
 }
 
 nav {
-    background-color: #444; /* Dark navigation background color */
-    color: #fff; /* White navigation text color */
+    background-color: #444; 
+    color: #fff; 
     padding: 10px;
 }
 
@@ -119,8 +119,8 @@ nav a {
 }
 
 footer {
-    background-color: #444; /* Dark footer background color */
-    color: #fbfbfb; /* White footer text color */
+    background-color: #444;
+    color: #fbfbfb; 
     text-align: center;
     padding: 10px;
     position: fixed;
