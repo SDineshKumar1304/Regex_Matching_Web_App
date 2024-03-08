@@ -14,7 +14,7 @@ I've deployed my Regex Pattern Matching and Email Validation App on AWS! 🎉
 # 🔗 Check it out here: http://51.20.5.207:5000/
  
 
-# UI
+# User Interface 
 
 ![image](https://github.com/SDineshKumar1304/Regex_Matching_Web_App/assets/125432987/44d050e5-5555-4b8d-ae1e-e84887394278)
 
